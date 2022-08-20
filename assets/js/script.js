@@ -127,37 +127,37 @@ pizzaButton.addEventListener("click", pizza)
 
 function breakfast() {
     itemList.innerHTML = ""
-    let selectpizza = menu.filter(function (select) {
+    let selectbreakfast = menu.filter(function (select) {
         return select.category === "breakfast"
     })
-    selectpizza.map(displayMenu)
+    selectbreakfast.map(displayMenu)
 }
 breakfastButton.addEventListener("click", breakfast)
 
 function mainCourse() {
     itemList.innerHTML = ""
-    let selectpizza = menu.filter(function (select) {
+    let selectmainCourse = menu.filter(function (select) {
         return select.category === "mainCourse"
     })
-    selectpizza.map(displayMenu)
+    selectmainCourse.map(displayMenu)
 }
 mainCourseButton.addEventListener("click", mainCourse)
 
 function soup() {
     itemList.innerHTML = ""
-    let selectpizza = menu.filter(function (select) {
+    let selectsoup = menu.filter(function (select) {
         return select.category === "soup"
     })
-    selectpizza.map(displayMenu)
+    selectsoup.map(displayMenu)
 }
 soupButton.addEventListener("click", soup)
 
 function dessert() {
     itemList.innerHTML = ""
-    let selectpizza = menu.filter(function (select) {
+    let selectdessert = menu.filter(function (select) {
         return select.category === "dessert"
     })
-    selectpizza.map(displayMenu)
+    selectdessert.map(displayMenu)
 }
 dessertButton.addEventListener("click", dessert)
 
